@@ -6,7 +6,7 @@ jobs:
     steps:
      - name: send-sms-action from vbhv007
        uses: vbhv007/send-sms-action@1.0
-        with:
+       with:
           mobile_no: ${{ secrets.MOBILE_NO }}
           aws_key_id: ${{ secrets.AWS_KEY_ID }}
           aws_key_access: ${{ secrets.AWS_KEY_ACCESS }}
